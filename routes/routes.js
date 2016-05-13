@@ -18,6 +18,10 @@ app.get('/login', function(req, res) {
 //             console.log(data);
             
 //         });
+app.get('/graph', function(req, res) {
+     // render the page and pass in any flash data if it exists
+    res.render('graph.ejs');
+});
 
 app.get('/register', function(req, res) {
      // render the page and pass in any flash data if it exists
